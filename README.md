@@ -11,6 +11,8 @@ The plugin generates the `jsNpmPack` task (or `${target.name}NpmPack` for JS tar
 - still references regular npm dependencies
 - can be declared as a dependency in an npm project
 
+If the `maven-publish` plugin is applied, it also creates a maven publication to upload the tarball.
+
 Usage with Gradle Script Kotlin
 -------------------------------
 
